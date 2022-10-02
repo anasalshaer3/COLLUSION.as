@@ -1,0 +1,228 @@
+:root{
+    --black: #22262A;
+    --white: #FAFAFA;
+}
+body{
+    color: var(--black) !important;
+}
+i{
+    font-size: 20px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+/*start header*/
+header{
+    height: 10vh;
+    background-color: white;
+}
+/*end header*/
+/*start main*/
+main{
+    background-image: url("../img/main/Background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .container{
+    height: 90vh;
+}
+main .container .content{
+    left: 60%;
+    top: 55%;
+}
+main .container .content h1{
+    font-size: 60px;
+}
+main .container .content div,main .container .content p{
+    font-size: 18px;
+}
+main .content button{
+    background-color: var(--black) !important;
+    color: var(--white) !important;
+}
+@media (max-width:676px) {
+    main .container .content{
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+@media (max-width:966px) {
+    main .container .content{
+        left: 50%;
+        top: 50%;
+        /*transform: translate(-50%,-50%);*/
+    }
+}
+/*end main*/
+/*start category*/
+.category .container{
+    min-height: 100vh;
+}
+.category button{
+    left: 5%;
+    bottom: 3%;
+}
+/*end category*/
+/*start womenFashion*/
+.womenFashion .container{
+    min-height: 100vh;
+}
+.womenFashion .card .iguera{
+    font-size: 12px;
+}
+.womenFashion .card p{
+    font-size: 18px;
+}
+.womenFashion .card ul{
+    top: 15px;
+    right: 15px;
+    opacity: 0;
+    transition: 0.5s;
+}
+.womenFashion .card ul i{
+    background-color: inherit;
+    font-size: 25px;
+}
+.womenFashion .card{
+    transition: 0.5s;
+}
+.womenFashion .card:hover{
+    box-shadow: 0 0 10px 0 var(--black);
+}
+.womenFashion .card .card-content{
+    padding: 2px;
+}
+.womenFashion .card:hover ul{
+    opacity: 1;
+}
+/*end womenFashion*/
+
+/*start menFashion*/
+.menFashion .container{
+    min-height: 100vh;
+}
+.menFashion .card .iguera{
+    font-size: 12px;
+}
+.menFashion .card p{
+    font-size: 18px;
+}
+.menFashion .card ul{
+    top: 15px;
+    right: 15px;
+    opacity: 0;
+    transition: 0.5s;
+}
+.menFashion .card ul i{
+    background-color: inherit;
+    font-size: 25px;
+}
+.menFashion .card{
+    transition: 0.5s;
+}
+.menFashion .card:hover{
+    box-shadow: 0 0 10px 0 var(--black);
+}
+.menFashion .card .card-content{
+    padding: 2px;
+}
+.menFashion .card:hover ul{
+    opacity: 1;
+}
+/*end menFashion*/
+
+/*sratr avone*/
+/*.avone .container{*/
+/*    min-height: 100vh;*/
+/*}*/
+/*.avone .imgBox1{*/
+/*    !*position: absolute;*!*/
+/*    !*top: 65px;*!*/
+/*    !*right: 0;*!*/
+/*    padding-top: 250px;*/
+/*}*/
+/*@media (min-width:676px) {*/
+/*    .avone .imgBox3{*/
+/*        position: absolute;*/
+/*        top: 84%;*/
+/*        right: 8px;*/
+/*    }*/
+/*}*/
+/*.avone .imgBox3{*/
+/*    position: absolute;*/
+/*    top: 84%;*/
+/*    right: 135px;*/
+/*}*/
+/*.avone button{*/
+/*    top: 138%;*/
+/*    left: 18%;*/
+/*}*/
+
+/*@media (max-width:767px) {*/
+/*    .avone .imgBox3{*/
+/*        position: absolute;*/
+/*        top: 84%;*/
+/*        right: 0;*/
+/*    }*/
+/*}*/
+/*@media (min-width:992px) {*/
+/*    .avone .imgBox1{*/
+/*        position: relative;*/
+/*    }*/
+/*    .avone .imgBox1 img{*/
+/*        position: absolute;*/
+/*        top: 35%;*/
+/*        right: 0;*/
+/*    }*/
+/*    .avone .imgBox3{*/
+/*        position: absolute;*/
+/*        top: 80%;*/
+/*        right: 12px;*/
+
+/*    }*/
+/*}*/
+/*end avone*/
+
+/*start tachen*/
+.tachen{
+    background: url("../img/tachen/backgroundtachen.svg") no-repeat;
+    background-size: cover;
+}
+.tachen .container{
+    min-height: 100vh;
+}
+.tachen .content{
+    left: 0;
+    top: 50%;
+}
+.tachen .content div , .tachen .content p{
+    font-size: 18px;
+}
+.tachen .content h2{
+    font-size: 80px;
+}
+.tachen .content button{
+    background-color: var(--black) !important;
+    color: var(--white) !important;
+}
+@media (max-width:676px) {
+    .tachen .content{
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+/*end tachen*/
+
+footer a{
+    background: #F2F8FC !important;
+    color: var(--black);
+}
+footer a{
+    text-decoration: none;
+}footer .copyright{
+    background: #E7F5F8;
+}
